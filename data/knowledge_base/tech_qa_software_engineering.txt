@@ -1,0 +1,37 @@
+TOPIC: Software Engineering Interview Questions
+
+Q: What is the difference between a stack and a queue?
+A: A stack is LIFO (Last In, First Out) – items are pushed and popped from the top.
+   A queue is FIFO (First In, First Out) – items are enqueued at the rear and dequeued from the front.
+   Use a stack for undo operations, call stacks, and DFS. Use a queue for BFS, scheduling, and buffers.
+
+Q: Explain the SOLID principles.
+A: Single Responsibility – a class should have only one reason to change.
+   Open/Closed – open for extension, closed for modification.
+   Liskov Substitution – subclasses should be substitutable for their base class.
+   Interface Segregation – prefer many specific interfaces over one general-purpose interface.
+   Dependency Inversion – depend on abstractions, not concretions.
+
+Q: What is the time complexity of binary search?
+A: O(log n). Binary search halves the search space at each step, making it very efficient for sorted arrays.
+
+Q: What is a RESTful API?
+A: REST (Representational State Transfer) is an architectural style for distributed hypermedia systems.
+   Key principles: stateless, uniform interface, client-server separation, cacheable, layered system.
+   HTTP methods map to CRUD: GET (read), POST (create), PUT/PATCH (update), DELETE (remove).
+
+Q: What is the difference between SQL JOIN types?
+A: INNER JOIN returns rows where both tables have matching values.
+   LEFT JOIN returns all rows from the left table plus matched rows from the right.
+   RIGHT JOIN returns all rows from the right table plus matched rows from the left.
+   FULL OUTER JOIN returns all rows from both tables, with NULLs where there is no match.
+
+Q: Explain microservices architecture.
+A: Microservices decompose an application into small, independently deployable services.
+   Benefits: independent scaling, technology diversity, fault isolation, faster deployments.
+   Challenges: distributed systems complexity, inter-service communication, data consistency.
+
+Q: What is Docker and why is it used?
+A: Docker is a containerisation platform that packages applications with all their dependencies.
+   Benefits: consistent environments, faster deployment, efficient resource utilisation.
+   Containers are lightweight compared to VMs as they share the host OS kernel.

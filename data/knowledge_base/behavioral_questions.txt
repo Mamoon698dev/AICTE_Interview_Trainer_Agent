@@ -1,0 +1,33 @@
+TOPIC: Behavioural Interview Questions & STAR Answers
+
+Q: Tell me about a time you handled a conflict with a team member.
+A (STAR): Situation – During a sprint, a colleague and I disagreed on the API design approach.
+   Task – We needed to resolve the conflict quickly to avoid blocking the team.
+   Action – I initiated a one-on-one, listened to their concerns, and we jointly reviewed
+   both designs against the requirements. We agreed on a hybrid approach.
+   Result – The feature was delivered on time and the relationship improved.
+
+Q: Describe a challenging project and how you overcame obstacles.
+A (STAR): Situation – I was tasked with migrating a legacy monolith to microservices in 3 months.
+   Task – The codebase had no tests and limited documentation.
+   Action – I created a strangler fig migration plan, added a test harness, and held weekly
+   knowledge-sharing sessions with the team.
+   Result – Delivered 80% migration on schedule; remaining 20% completed the following sprint.
+
+Q: Give an example of when you showed leadership.
+A (STAR): Situation – Our tech lead left mid-project and the team lacked direction.
+   Task – I stepped up to coordinate without formal authority.
+   Action – Organised daily stand-ups, maintained the backlog, and escalated blockers to management.
+   Result – The project shipped successfully and I was offered a team lead role.
+
+Q: Tell me about a failure and what you learned.
+A (STAR): Situation – I deployed a database migration without proper rollback planning.
+   Task – When the migration failed in production, I needed to recover quickly.
+   Action – Used backups to restore the database and worked with the DBA to fix the script.
+   Result – Service was restored within 2 hours. I now enforce mandatory rollback plans
+   and staging deployments for all migrations.
+
+Q: How do you prioritise when you have multiple deadlines?
+A: I use a combination of urgency/importance matrix (Eisenhower Matrix) and direct communication
+   with stakeholders. I break tasks into milestones, identify dependencies, and flag risks early.
+   I believe in transparency – I'd rather renegotiate a deadline proactively than miss it silently.

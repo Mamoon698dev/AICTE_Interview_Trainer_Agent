@@ -1,0 +1,27 @@
+TOPIC: Data Science Interview Questions
+
+Q: What is the bias-variance trade-off?
+A: Bias is error from overly simplistic assumptions (underfitting).
+   Variance is error from sensitivity to fluctuations in training data (overfitting).
+   The goal is to find the right model complexity that minimises total error.
+
+Q: Explain precision vs recall.
+A: Precision = TP / (TP + FP) – of all predicted positives, how many are truly positive?
+   Recall = TP / (TP + FN) – of all actual positives, how many did we capture?
+   F1 score is the harmonic mean of both. Choose precision when false positives are costly,
+   recall when false negatives are costly.
+
+Q: What is cross-validation?
+A: A technique to evaluate model generalisation by splitting data into k folds.
+   The model is trained on k-1 folds and tested on the remaining fold, repeated k times.
+   k-fold CV provides a robust performance estimate and reduces overfitting.
+
+Q: How do you handle missing data?
+A: Options: deletion (listwise/pairwise), mean/median/mode imputation,
+   model-based imputation (KNN, regression), multiple imputation, or using algorithms
+   that handle missing values natively (e.g., XGBoost).
+
+Q: What is regularisation and why is it important?
+A: Regularisation adds a penalty term to the loss function to prevent overfitting.
+   L1 (Lasso) encourages sparsity; L2 (Ridge) shrinks coefficients towards zero.
+   ElasticNet combines both. Critical when the model has many features relative to samples.
